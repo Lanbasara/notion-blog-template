@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 79.03036244600054" width="195" height="237.0910873380016">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <g transform="translate(16.59595328905317 10) rotate(0 15.162651024627053 15.529087582750691)"><text x="0" y="0" font-family="Cascadia, Segoe UI Emoji" font-size="25.88181263791778px" fill="#1864ab" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">SR</text></g><g stroke-linecap="round" transform="translate(10 39.03036244600054) rotate(0 22.5 15)"><path d="M7.5 0 L37.5 0 L40.78 0.47 L43.13 1.88 L44.53 4.22 L45 7.5 L45 22.5 L44.53 25.78 L43.13 28.13 L40.78 29.53 L37.5 30 L7.5 30 L4.22 29.53 L1.88 28.13 L0.47 25.78 L0 22.5 L0.47 4.22 L1.88 1.88 L4.22 0.47 L7.5 0" stroke="none" stroke-width="0" fill="#4c6ef5"></path><path d="M7.5 0 M7.5 0 C14.87 0, 22.24 0, 37.5 0 M7.5 0 C17.35 0, 27.2 0, 37.5 0 M37.5 0 C42.5 0, 45 2.5, 45 7.5 M37.5 0 C42.5 0, 45 2.5, 45 7.5 M45 7.5 C45 11.04, 45 14.59, 45 22.5 M45 7.5 C45 13.38, 45 19.26, 45 22.5 M45 22.5 C45 27.5, 42.5 30, 37.5 30 M45 22.5 C45 27.5, 42.5 30, 37.5 30 M37.5 30 C30.48 30, 23.47 30, 7.5 30 M37.5 30 C25.86 30, 14.22 30, 7.5 30 M7.5 30 C2.5 30, 0 27.5, 0 22.5 M7.5 30 C2.5 30, 0 27.5, 0 22.5 M0 22.5 C0 19.26, 0 16.01, 0 7.5 M0 22.5 C0 19.24, 0 15.98, 0 7.5 M0 7.5 C0 2.5, 2.5 0, 7.5 0 M0 7.5 C0 2.5, 2.5 0, 7.5 0" stroke="#000000" stroke-width="1" fill="none"></path></g><g transform="translate(18.4375 44.430362446000515) rotate(0 14.0625 9.600000000000023)"><text x="14.0625" y="0" font-family="Cascadia, Segoe UI Emoji" font-size="16px" fill="#fff" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Dev</text></g></svg>
