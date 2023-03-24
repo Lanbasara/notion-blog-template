@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import type { TableOfContentsEntry } from "notion-utils"
 import MetaConfig, { MetaConfigProps } from "./MetaConfig"
 import TableOfContent from "../TableOfContent"
+import { useContext } from "react"
+import PostContext from "@/src/hooks/usePost"
 
 type Props = {
   children: React.ReactNode
@@ -30,15 +32,17 @@ const Layout: React.FC<Props> = ({
           >
             {children}
           </main>
-          {tableOfContent && tableOfContent?.length > 0 && (
-            <aside className="md:flex md:ml-4 sticky md:flex-col md:items-center md:top-36 md:self-start md:flex-auto hidden post-table-of-content">
-              <TableOfContent
-                className="mb-6"
-                tableOfContent={tableOfContent}
-                mobile
-              />
-            </aside>
-          )}
+          {metaConfig.type !== "Paper" &&
+            tableOfContent &&
+            tableOfContent?.length > 0 && (
+              <aside className="md:flex md:ml-4 sticky md:flex-col md:items-center md:top-36 md:self-start md:flex-auto hidden post-table-of-content">
+                <TableOfContent
+                  className="mb-6"
+                  tableOfContent={tableOfContent}
+                  mobile
+                />
+              </aside>
+            )}
         </div>
       </div>
     </div>
